@@ -1,5 +1,6 @@
 # djs-helper
-
+    <a href="https://www.npmjs.com/package/djs-helper"><img src="https://img.shields.io/npm/v/djs-helper.svg?maxAge=3600" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/djs-helper"><img src="https://img.shields.io/npm/dt/djs-helper.svg?maxAge=3600" alt="npm downloads" /></a>
 **djs-helper** is a JavaScript library that helps you to develop your own Discord Bot, **Still under development, more features will be added in the future**
 
 ## Installation
