@@ -60,7 +60,7 @@ client.login('token');
 
  Name   | Function            | Usage                                    
 --------|---------------------|------------------------------------------
- Colors | Contains all colors | `console.log(Colors.Red)` 
+ Colors | Contains all colors | `console.log(Colors.HEX.Red)` 
 
  
 ## Contributing
