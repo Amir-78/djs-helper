@@ -2,7 +2,8 @@
  * Checks if the string contains URLs
  * @param {string} content - String to check
  * @param {Array} whitelist - Allowed URLs
- * @see https://github.com/Amir-78
+ * @see 
+ https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
 function isURL(content, whitelist = []) {

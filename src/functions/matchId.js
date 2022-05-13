@@ -1,7 +1,8 @@
 /**
  * Extracting Discord IDs from String
  * @param {string} content - String to extract IDs from
- * @see https://github.com/Amir-78
+ * @see 
+ https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
 function matchId(content) {

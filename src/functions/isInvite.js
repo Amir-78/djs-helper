@@ -1,7 +1,8 @@
 /**
  * Checks if the string contains Discird Invites
  * @param {string} content - String to check
- * @see https://github.com/Amir-78
+ * @see 
+ https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
  function isInvite(content) {

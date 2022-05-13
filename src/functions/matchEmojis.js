@@ -2,7 +2,8 @@
  * Extracting Discord Emojis from String
  * @param {string} content - String to extract Emojis from
  * @param {boolean} unicode - Extract unicode Emojis too
- * @see https://github.com/Amir-78
+ * @see 
+ https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
 function matchEmojis(content, unicode = false) {
