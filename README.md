@@ -1,6 +1,6 @@
 # djs-helper
 
-**djs-helper** is a JavaScript library that helps you to develop your own Discord Bot
+**djs-helper** is a JavaScript library that helps you to develop your own Discord Bot, **Still under development, more features will be added in the future**
 
 ## Installation
 
