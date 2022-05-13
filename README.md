@@ -26,13 +26,13 @@ client.on('messageCreate', async (message) => {
             let embed = new MessageEmbed()
                 .setTitle("Extract Emojis")
                 .setDescription(":x: No emoji found!")
-                .setColor(DjsH.Colors.Red)
+                .setColor(DjsH.Colors.HEX.Red)
             return message.reply({ embeds: [embed] });
         } else {
             let embed = new MessageEmbed()
                 .setTitle("Extract Emojis")
                 .setDescription(`Emojis found: \`${emojis.join(',')}\``)
-                .setColor(DjsH.Colors.Aqua)
+                .setColor(DjsH.Colors.HEX.Aqua)
             message.reply({ embeds: [embed] });
         }
     }
