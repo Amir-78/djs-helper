@@ -49,18 +49,19 @@ client.login('token');
 ## Documentation
 ### Functions:
 
- **Name**      | **Params**            | **Type**           | **Function**                                                                                                
----------------|-----------------------|--------------------|-------------------------------------------------------------------------------------------------------------
- matchId()     | `content`             | `String`           | `Extract All Discord IDs from content`                                                                      
- matchEmojis() | `content`,`unicode`   | `String`,`Boolean` | `Extract All Discord Emojis from content, If` **unicode** `is` **true** `it will return Unicode emojis too` 
- isInvite()    | `content`             | `String`           | `Checks if content contains Discord Invites`                                                                
- isURL()       | `content`,`whitelist` | `String`,`Array`   | `Checks if content contains URLs`                                                                           
+ **Name**      | **Params**            | **Type**           | **Function**           | **Returns**                                                                                                 
+---------------|-----------------------|--------------------|------------------------|------------------------------------------------------------------------------------
+ matchId()     | `content`             | `String`           | `Extract All Discord IDs from content`  | `Array`                                                                    
+ matchEmojis() | `content`,`unicode`   | `String`,`Boolean` | `Extract All Discord Emojis from content, If` **unicode** `is` **true** `it will return Unicode emojis too`| `Array`
+ isInvite()    | `content`             | `String`           | `Checks if content contains Discord Invites`| `Boolean`                                                        
+ isURL()       | `content`,`whitelist` | `String`,`Array`   | `Checks if content contains URLs`| `Boolean`  
+ splitMessage()       | `content`,`max` | `String`,`Number`   | `Split string every` max `default: 2000 max`| `Array`                                                                        
                                                                                                  
 ### Utils:
 
  Name   | Function            | Usage                                    
 --------|---------------------|------------------------------------------
- Colors | Contains all colors | `console.log(Colors.Red)` 
+ Colors | Contains all colors | to Show all colors: `console.log(Colors.HEX)` 
 
  
 ## Contributing
