@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Extracting Discord IDs from String
  * @param {string} content - String to extract IDs from

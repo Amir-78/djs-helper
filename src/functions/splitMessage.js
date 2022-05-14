@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Split string every 2000 character
  * @param {string} content - String to split

@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Contains all colors hex
  * @param {string} Colors.Hex.Red will return String `#FF0000`

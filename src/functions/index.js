@@ -1,3 +1,4 @@
+'use strict';
 const { matchId } = require('./matchId');
 const { matchEmojis } = require('./matchEmojis');
 const { isInvite } = require('./isInvite');

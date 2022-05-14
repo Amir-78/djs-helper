@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Extracting Discord Emojis from String
  * @param {string} content - String to extract Emojis from

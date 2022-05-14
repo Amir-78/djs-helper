@@ -1,3 +1,4 @@
+'use strict';
 /**
  * Checks if the string contains Discird Invites
  * @param {string} content - String to check
