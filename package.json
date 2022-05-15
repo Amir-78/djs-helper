@@ -1,0 +1,20 @@
+{
+  "name": "djs-helper",
+  "version": "1.0.5",
+  "description": "**djs-helper** is a JavaScript library that helps you to develop your own Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-78/djs-helper.git"
+  },
+  "keywords": ["discordjs","discord.js","djs-helper","djs","discord","js"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amir-78/djs-helper/issues"
+  },
+  "homepage": "https://github.com/Amir-78/djs-helper#readme"
+}
