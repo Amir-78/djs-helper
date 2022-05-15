@@ -55,7 +55,11 @@ client.login('token');
  matchEmojis() | `content`,`unicode`   | `String`,`Boolean` | `Extract All Discord Emojis from content, If` **unicode** `is` **true** `it will return Unicode emojis too`| `Array`
  isInvite()    | `content`             | `String`           | `Checks if content contains Discord Invites`| `Boolean`                                                        
  isURL()       | `content`,`whitelist` | `String`,`Array`   | `Checks if content contains URLs`| `Boolean`  
- splitMessage()       | `content`,`max` | `String`,`Number`   | `Split string every` max `default: 2000 max`| `Array`                                                                        
+ splitMessage()       | `content`,`max` | `String`,`Number`   | `Split string every` max `default: 2000 max`| `Array`
+ await getMember()       | `guild`,`userID` | `Object`,`String`   | `Get member from guild using ID`| `Object`/`null`
+guildsCount()       | `client` | `Object (Discord.Client())`  | `Get client guilds count (Supports Sharding)`         
+usersCount()       | `client` | `Object (Discord.Client())`  | `Get client users count (Supports Sharding)`      
+channelsCount()       | `client` | `Object (Discord.Client())`  | `Get client channels count (Supports Sharding)`                                                        
                                                                                                  
 ### Utils:
 
