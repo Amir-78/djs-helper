@@ -1,7 +1,9 @@
 'use strict';
+const { Client } = require('discord.js');
+
 /**
  * Get Bot users count;
- * @param {string} client - Client
+ * @param {Client} client - Client
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */

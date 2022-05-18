@@ -1,8 +1,10 @@
 'use strict';
+const { Guild, GuildMember } = require('discord.js');
+
 /**
  * Get member from guild;
- * @param {string} guild - Guild
- * @param {string} id - User ID
+ * @param {Guild} guild - The guild to get member from.
+ * @param {GuildMember} id - The guildMember to get.
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
