@@ -4,6 +4,7 @@ const { Client } = require('discord.js');
 /**
  * Get Bot channels count;
  * @param {Client} client - The Discord Client
+ * @returns {number} The total cached channels
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */

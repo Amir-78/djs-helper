@@ -4,6 +4,7 @@ const { Client } = require('discord.js');
 /**
  * Get Bot guilds count;
  * @param {Client} client - Client
+ * @returns {number} The total cached guilds
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
