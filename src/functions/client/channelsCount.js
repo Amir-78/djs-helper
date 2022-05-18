@@ -8,7 +8,7 @@ const { Client } = require('discord.js');
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
-function channelsCount(client = null) {
+function channelsCount(client) {
     // Throwing necessary errors
     if (typeof client !== 'object') throw new TypeError('client must be a object');
     if (!client.channels) throw new SyntaxError('pass a correct Discord.Client');
