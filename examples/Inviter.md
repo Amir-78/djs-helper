@@ -17,7 +17,7 @@ client.on('ready', async () => {
 
 client.on("guildMemberAdd", async (member) => {
 
-    await djsHelper.Inviter(client, member)
+    await djsHelper.Inviter(client, member);
     if (member.invite) {
         console.log(member.invite)
     }
