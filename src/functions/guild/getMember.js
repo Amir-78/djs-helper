@@ -10,7 +10,7 @@ const { Guild, GuildMember } = require('discord.js');
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
-async function getMember(guild = null, id = null) {
+async function getMember(guild, id) {
     // Throwing necessary errors
     if (typeof id !== 'string') throw new TypeError('id must be a string');
     if (typeof guild !== 'object') throw new TypeError('guild must be a object');
