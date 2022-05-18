@@ -2,6 +2,7 @@
 /**
  * Checks if the string contains Discird Invites
  * @param {string} content - String to check
+ * @returns {boolean} true if it's a Discord invitation
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */

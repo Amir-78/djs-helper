@@ -3,6 +3,7 @@
  * Extracting Discord Emojis from String
  * @param {string} content - String to extract Emojis from
  * @param {boolean} unicode - Extract unicode Emojis too
+ * @returns {array} array of emojis IDs and unicode Emojis
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */

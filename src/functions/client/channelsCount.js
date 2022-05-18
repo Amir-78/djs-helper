@@ -1,12 +1,15 @@
 'use strict';
+const { Client } = require('discord.js');
+
 /**
  * Get Bot channels count;
- * @param {string} client - Client
+ * @param {Client} client - The Discord Client
+ * @returns {number} The total cached channels
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
 
-function channelsCount(client = null) {
+function channelsCount(client) {
     // Throwing necessary errors
     if (typeof client !== 'object') throw new TypeError('client must be a object');
     if (!client.channels) throw new SyntaxError('pass a correct Discord.Client');

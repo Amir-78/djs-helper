@@ -3,6 +3,7 @@
  * Checks if the string contains URLs
  * @param {string} content - String to check
  * @param {Array} whitelist - Allowed URLs
+ * @returns {boolean} true if it's a URL
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */

@@ -2,6 +2,7 @@
 /**
  * Extracting Discord IDs from String
  * @param {string} content - String to extract IDs from
+ * @returns {array} array of all discord IDs
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */

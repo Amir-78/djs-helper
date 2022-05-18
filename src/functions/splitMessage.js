@@ -3,6 +3,7 @@
  * Split string every 2000 character
  * @param {string} content - String to split
  * @param {number} max - Max length to split, default: 2000
+ * @returns {array} array of splited message
  * @see 
  https://github.com/Amir-78/djs-helper/tree/master#documentation
  */
