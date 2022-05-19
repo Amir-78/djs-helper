@@ -2,7 +2,7 @@
 
 ```javascript
 const { Client, Intents, MessageEmbed } = require('discord.js');
-const djsHelper = require('../djs-helper');
+const djsHelper = require('djs-helper');
 const client = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
