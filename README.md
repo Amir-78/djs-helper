@@ -69,6 +69,6 @@ channelsCount()       | `client` | `Object (Discord.Client())`  | `Get client ch
 --------|---------------------|------------------------------------------
  Colors | Contains all colors | to Show all colors: `console.log(Colors.HEX)` 
 
- 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
