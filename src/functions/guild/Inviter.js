@@ -35,7 +35,14 @@ async function Inviter(client, member) {
     var cached = client.invites.get(guild.id);
     var Ninvites = await guild.invites.fetch();
     var Used = Ninvites.find(invite => cached.get(invite.code) < invite.uses);
-    client.invites.set(guild.id, Ninvites);
+    //Update old cache
+    await guild.invites.fetch()
+        .then(invites => {
+            const Uses = new Map();
+            invites.each(invite => Uses.set(invite.code, invite.uses));
+            client.invites.set(guild.id, Uses);
+        })
+    //
     if (!Used) return member.invite = null;
     member.invite = Used;
 
