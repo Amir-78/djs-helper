@@ -42,7 +42,7 @@ async function Inviter(client, member) {
             invites.each(invite => Uses.set(invite.code, invite.uses));
             client.invites.set(guild.id, Uses);
         })
-    //
+        
     if (!Used) return member.invite = null;
     member.invite = Used;
 
