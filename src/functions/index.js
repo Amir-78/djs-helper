@@ -9,4 +9,5 @@ const { usersCount } = require('./client/usersCount');
 const { channelsCount } = require('./client/channelsCount');
 const { getUser } = require('./api/getUser');
 const { Inviter } = require('./guild/Inviter');
-module.exports = { matchId, matchEmojis, isInvite, isURL, splitMessage, getMember, getUser, guildsCount, usersCount, channelsCount, Inviter }
+const {getUserBannerURL} = require('./api/getUserBannerURL')
+module.exports = { matchId, matchEmojis, isInvite, isURL, splitMessage, getMember, getUser, guildsCount, usersCount, channelsCount, Inviter,getUserBannerURL }
