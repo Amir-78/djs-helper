@@ -57,9 +57,9 @@ client.login('token');
  isURL()       | `content`,`whitelist` | `String`,`Array`   | `Checks if content contains URLs`| `Boolean`  
  splitMessage()       | `content`,`max` | `String`,`Number`   | `Split string every` max `default: 2000 max`| `Array`
  await getMember()       | `guild`,`userID` | `Object`,`String`   | `Get member from guild using ID`| `Object`/`null`
-guildsCount()       | `client` | `Object (Discord.Client())`  | `Get client guilds count (Supports Sharding)`| `Number`       
-usersCount()       | `client` | `Object (Discord.Client())`  | `Get client users count (Supports Sharding)` | `Number`        
-channelsCount()       | `client` | `Object (Discord.Client())`  | `Get client channels count (Supports Sharding)`| `Number`  
+await guildsCount()       | `client` | `Object (Discord.Client())`  | `Get client guilds count (Supports Sharding)`| `Number`       
+await usersCount()       | `client` | `Object (Discord.Client())`  | `Get client users count (Supports Sharding)` | `Number`        
+await channelsCount()       | `client` | `Object (Discord.Client())`  | `Get client channels count (Supports Sharding)`| `Number`  
  await getUser()       | `client`,`userID` | `Object (Discord.Client())`,`String`   | `Get user using ID`| `Object`/`null`| `Object`/`null`   
 [await Inviter()](https://github.com/Amir-78/djs-helper/blob/master/examples/Inviter.md#await-inviter)       | `client`,`member` | `Object (Discord.Client())`,`Object (GuildMember)`   | `Get used invite`| `Object`                                                   
                                                                                                  
