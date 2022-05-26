@@ -15,8 +15,8 @@ async function usersCount(client) {
     if (!client.guilds) throw new SyntaxError('pass a correct Discord.Client');
 
     if (client.shard) {
-        var results = await client.shard.fetchClientValues('guilds.cache');
-        return results.reduce((prev, val) => prev + val.memberCount, 0)
+        var results = await client.shard.broadcastEval((c) => c.guilds.cache.map((guild) => guild.memberCount).reduce((a, g) => a + g, 0));
+        return results.reduce((a, g) => a + g, 0)
     } else {
         try {
             return client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)
