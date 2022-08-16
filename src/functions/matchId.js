@@ -12,7 +12,7 @@ function matchId(content) {
     if (typeof content !== 'string') throw new TypeError('content must be a string');
     
     // Using Regular Expression to match IDs from string
-    const match = content.match(/[0-9\(\)]{18}/g);
+    const match = content.match(/[0-9\(\)]{19}/g);
     return match || [];
 };
 
