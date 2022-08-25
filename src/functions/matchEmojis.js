@@ -14,9 +14,9 @@ function matchEmojis(content, unicode = false) {
     if (typeof unicode !== 'boolean') throw new TypeError('unicode must be a boolean');
 
     // Using Regular Expression to match Emojis from string
-    let regex = /<a?:[A-Za-z0-9~_-]+:(\d{18})>/g
+    let regex = /<a?:[A-Za-z0-9~_-]+:(\d{18,19})>/g
     if (unicode) {
-        regex = /<a?:[A-Za-z0-9~_-]+:(\d{18})>|(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g
+        regex = /<a?:[A-Za-z0-9~_-]+:(\d{18,19})>|(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g
     }
     const match = content.match(regex);
     let results = [];
@@ -24,8 +24,8 @@ function matchEmojis(content, unicode = false) {
     // Extract Emoji ID
     for (var i = 0; i < match.length; i++) {
         if (match[i].startsWith("<")) {
-            if (match[i].match(/[0-9\(\)]{18}/g)[0]) {
-                results.push(match[i].match(/[0-9\(\)]{18}/g)[0]);
+            if (match[i].match(/[0-9\(\)]{18,19}/g)[0]) {
+                results.push(match[i].match(/[0-9\(\)]{18,19}/g)[0]);
             }
         } else {
             results.push(match[i]);
