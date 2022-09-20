@@ -14,7 +14,7 @@ async function getUser(client, id) {
     // Throwing necessary errors
     if (typeof id !== 'string') throw new TypeError('id must be a string');
     if (isNaN(id)) throw new SyntaxError('Incorrect id given')
-    if (id.length != 18) throw new SyntaxError('Incorrect id given')
+    if (id.length < 18 && id.length > 19) throw new SyntaxError('Incorrect id given')
     if (typeof client !== 'object') throw new TypeError('client must be an object');
     // Get user using id;
     try {

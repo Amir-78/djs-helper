@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v2.0.6
+### Fixed
+- **Discord ID issue fixed**.
+
 ## v2.0.2
 ### Fixed
 - **channelsCount():** The issue of not getting channelsCount for sharding bots has been fixed.
